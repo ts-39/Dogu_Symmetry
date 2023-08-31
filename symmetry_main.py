@@ -62,7 +62,7 @@ plt.show()
 
 #Calculate differences between images
 img_difference = cv2.absdiff(img_centered, img_flipped)
-print("画像間の差異を計算しました。")
+print("Differences between images were calculated.")
 plt.imshow(img_difference, cmap='gray')
 plt.title('Calculated differences between images')
 plt.show()
